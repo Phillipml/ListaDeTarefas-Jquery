@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Protest Revolution", sans-serif;
+}
+body {
+  background-color: #e9e5d0;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2%;
+  background-color: #3126009d;
+}
+header img {
+  height: 30px;
+  margin-right: 2%;
+}
+header h3 {
+  font-size: 40px;
+}
+header p {
+  font-size: 20px;
+}
+header .logoText {
+  text-align: center;
+}
+.container {
+  background-color: #fff;
+  width: 80%;
+  margin: 20px auto;
+  padding: 2%;
+}
+form {
+  width: 50%;
+  margin: 2% auto;
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+  border: 1px solid #fff;
+
+  text-align: center;
+  border-bottom: 1px solid #4d3e00ed;
+}
+form h2 {
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+form input {
+  padding: 1%;
+  width: 50%;
+  margin: 2% auto;
+}
+form button {
+  width: 200px;
+  padding: 2%;
+  margin: 0 auto;
+  border: none;
+  border-radius: 15px;
+  background-color: #4d3e00;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.2s;
+}
+form button:hover {
+  background-color: #141000;
+}
+ul {
+  display: none;
+}
+.taskItem {
+  text-align: center;
+  list-style-position: inside;
+  padding: 5px;
+  border-bottom: 1px solid rgba(68, 70, 0, 0.2);
+  cursor: pointer;
+}
+.lineThrought {
+  text-decoration: line-through;
+}

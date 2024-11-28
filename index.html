@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista de Tarefas - Jquery</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <img src="./images/logo.png" alt="logo" />
+      <div class="logoText">
+        <h3>Listei!</h3>
+        <p>Lista de Tarefas</p>
+      </div>
+    </header>
+    <div class="container">
+      <form>
+        <h2>Adicione uma tarefa</h2>
+        <p>Clique para riscar a tarefa</p>
+        <input type="text" id="newTask" />
+        <button type="submit">Adicionar</button>
+      </form>
+      <ul id="taskList"></ul>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
